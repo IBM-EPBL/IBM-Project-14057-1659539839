@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ :root {
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --text-color: black;
+}
+
+.full-page {
+    height: 100%;
+    width: 100%;
+    color: var(--text-color);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 60px;
+}
+
+.logo {
+    width: 50px;
+    height: 40px;
+}
+
+h1 {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    float: right;
+    margin-right: 77%;
+    margin-top: 10px;
+}
+
+
+/*-----login form style**/
+
+.form-box {
+    width: 380px;
+    height: 530px;
+    position: relative;
+    margin: 1% auto;
+    background: white;
+    padding: 2 0px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px white;
+    border-radius: 30px;
+}
+
+.input-group {
+    top: 90px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 70%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: red;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.check-box {
+    margin: 20px 10px 34px 0;
+}
+
+#login {
+    left: 50px;
+}
+
+#login input {
+    color: black;
+    font-size: 20;
+}
+
+#register {
+    left: 450px;
+}
+
+#register input {
+    color: black;
+    font-size: 20;
+}
